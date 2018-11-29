@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
     div[fxLayout] {margin-top: 32px;}
   `],
   template: `
-    <div fxLayout="column" fxLayoutAlign="center center">
+    <div fxLayout="column" fxLayoutAlign="center">
       <span class="mat-display-2">Hello, Lemonite!</span>
       <br/>
-      <button mat-raised-button color="primary">Login</button>
+      <br/>
+      <button mat-raised-button color="primary" routerLink="/manager">Login as Manager</button>
     </div>
     `
 })
