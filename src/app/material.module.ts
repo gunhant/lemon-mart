@@ -1,3 +1,4 @@
+import { HttpClientModule } from '@angular/common/http';
 import { MatButtonModule, MatToolbarModule, MatIconModule } from '@angular/material';
 import { NgModule } from '@angular/core';
 // import { CommonModule } from '@angular/common';
