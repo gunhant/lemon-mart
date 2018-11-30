@@ -6,9 +6,11 @@ import { ManagerHomeComponent } from './manager-home/manager-home.component';
 import { SitemanagerComponent } from './sitemanager.component';
 
 import { MaterialModule } from '../material.module';
+import { UserManagementComponent } from './user-management/user-management.component';
+import { ReceiptLookupComponent } from './receipt-lookup/receipt-lookup.component';
 
 @NgModule({
-  declarations: [ManagerHomeComponent, SitemanagerComponent],
+  declarations: [ManagerHomeComponent, SitemanagerComponent, UserManagementComponent, ReceiptLookupComponent],
   imports: [
     CommonModule,
     ManagerRoutingModule,
