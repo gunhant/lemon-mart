@@ -3,12 +3,16 @@ import { CommonModule } from '@angular/common';
 
 import { ManagerRoutingModule } from './manager-routing.module';
 import { ManagerHomeComponent } from './manager-home/manager-home.component';
+import { SitemanagerComponent } from './sitemanager.component';
+
+import { MaterialModule } from '../material.module';
 
 @NgModule({
-  declarations: [ManagerHomeComponent],
+  declarations: [ManagerHomeComponent, SitemanagerComponent],
   imports: [
     CommonModule,
-    ManagerRoutingModule
+    ManagerRoutingModule,
+    MaterialModule
   ]
 })
 export class ManagerModule { }
